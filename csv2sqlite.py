@@ -6,27 +6,8 @@ import logging
 import sqlite3
 from sys import argv
 
-# TODO: Fixup
-# TODO: Add options and jazz.
-# TODO: Basic Test code
-
 class Csv2Sqlite:
-    """The summary line for a class docstring should fit on one line.
-
-    If the class has public attributes, they may be documented here
-    in an ``Attributes`` section and follow the same formatting as a
-    function's ``Args`` section. Alternatively, attributes may be documented
-    inline with the attribute's declaration (see __init__ method below).
-
-    Properties created with the ``@property`` decorator should be documented
-    in the property's getter method.
-
-    Attributes:
-        attr1 (str): Description of `attr1`.
-        attr2 (:obj:`int`, optional): Description of `attr2`.
-    """
-
-    def __init__(self, file_path, db="example.db", table_format=None):
+    def __init__(self, file_path, db="default.db", table_format=None):
         self.file_path = file_path
         self.table_format = table_format
 
