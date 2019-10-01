@@ -1,4 +1,4 @@
-#CSV 2 SQLite
+# CSV 2 SQLite
 This takes an csv and imports the file to sqlite database.
 
 ## How to run
